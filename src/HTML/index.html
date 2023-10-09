@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="icon" href="https://www.udb.edu.sv/estilodevidaudb/images/logo-udb-letra-blanca-transparente.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous">
+</head>
+<body>
+    <h1 class="text-center pt-5">Universidad Don Bosco</h1>
+    <h2>API Node.JS & Express / BodyParser</h2>
+    <h3>Materias</h3>
+    <div class="container">
+        <h4>PENSUM MATERIAS</h4>
+        <a href="carreras">Mostrar carreras</a><br>
+        <a href="materiasTecnico">Mostrar Materias de Tecnico</a><br>
+        <a href="materiasIngenieria">Mostrar Materias de Ingenieria</a><br>
+        <a href="inscripcion">Mostrar Inscripcion de Materias</a><br><br>
+        <h4>CONSULTAR MATERIAS</h4>
+        <a href="/prerequisitos/INGRESE-CODIGO-MATERIA-AQUI">Consultar Prerequisitos por Codigo de Materia</a><br>
+        <a href="/materiasCiclo/tecnico/ciclo-1-o-2">Consulta de Materias por ciclo Tecnico</a><br>
+        <a href="/materiasCiclo/ingenieria/ciclo-1-o-2">Consulta de Materias por ciclo Ingeniero</a><br><br>
+        <h4>ELIMINACIÓN DE INSCRIPCIÓN</h4>
+        <a href="">Eliminar Inscripciones de las Materias</a>
+    </div>
+
+    <footer class="bg-dark text-center text-white fixed-bottom">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            Created By TEAM NoderDevs-DAW © 2023 All rights reserved
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chakra+Petch:ital,wght@1,700&family=Poppins:wght@100&family=Roboto:wght@100&family=Rubik:ital@1&display=swap');
+        *{
+            font-family: 'Roboto', sans-serif !important;
+        }
+
+        body{
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://c0.wallpaperflare.com/path/524/860/912/screen-code-coding-programming-ad0c860c0befdfe8f6beb2d932e7e008.jpg');
+            background-size: cover;
+        }
+        h1{
+            font-weight: 600;
+            font-size: 6vh;
+        }
+        h1,h2,h3{
+            color: #ffffff;
+            text-align: center;
+        }
+        h2,h3{
+            font-weight: 400;
+        }
+        h4{
+            font-weight: 600;
+        }
+        a{
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 2.2vh;
+            font-weight: 400;
+            transition: 0.5s;
+        }
+
+        a:hover{
+            color: rgb(182, 107, 253);
+        }
+
+        .container{
+            margin: 0 auto;
+            width: 520px !important;
+            font-family: 'Poppins', sans-serif !important;
+            color: #ffffff !important;
+            border-radius: 10px !important;
+            padding: 30px 40px !important;
+            background: rgba(0, 0, 0, .1) !important;
+            border: 2px solid rgba(255, 255, 255, 0.5) !important;
+            backdrop-filter: blur(30px) !important;
+            box-shadow: 0 0 10px rgba(0, 0, 0, .2) !important;
+            text-align: center;
+        }
+    </style>
+</body>
+</html>
